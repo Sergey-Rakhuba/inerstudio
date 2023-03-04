@@ -1,0 +1,66 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1920px) {
+
+    header {
+
+        min-height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .container {
+        width: 1920px;
+    }
+}
+
+@media only screen and (max-width : 1600px) {
+    .container {
+        width: 1600px;
+    }
+
+}
+
+@media only screen and (max-width : 1366px) {
+
+
+
+    .container {
+        width: 1366px;
+
+    }
+
+}
+
+@media only screen and (max-width : 992px) {
+
+
+
+    .container {
+        width: 992px;
+
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+    .container {
+        width: 768px;
+
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+    .container {
+        width: 480px;
+
+    }
+
+}
