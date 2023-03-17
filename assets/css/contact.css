@@ -1,0 +1,441 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contact__main {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.contact__main .contact__background {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(/assets/images/flipboard-652059-unsplash.png);
+    background-size: 100% 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.contact__main .contact__background .container-flat {
+    display: block;
+    padding: 70px 0;
+}
+
+.contact__main .contact__background .container-contact {
+    padding: 6.1% 12%;
+    height: 100%;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.contact__main .contact__background .container-contact .contact__block1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    margin-top: 26px;
+}
+
+.contact__main .contact__background .container-contact .contact__block1 .span1 {
+    visibility: collapse;
+}
+
+.contact__main .contact__background .container-contact .contact__block1 .span2 {
+    visibility: visible;
+    margin-left: -240px;
+}
+
+.contact__main .contact__background .container-contact .contact__block1 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.contact__main .contact__background .container-contact .contact__block1 p {
+    padding-top: 10px;
+    max-width: 390px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    font-style: normal;
+    color: #FFFFFF;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 p {
+    max-width: 390px;
+    max-height: 37px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant, .contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    margin-right: 6vw;
+    margin-top: 46px;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant ul, .contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant1 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant ul li, .contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant1 ul li {
+    list-style-type: none;
+    margin-top: 13px;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant ul h3, .contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant1 ul h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant ul p, .contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock .contact__contant1 ul p {
+    width: 130px;
+    padding: 0;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.contact__contant1 {
+    padding-left: 35px;
+}
+
+.contact__contant-mail {
+    margin-top: 64px;
+}
+
+.contact__contant-mail h5 {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+}
+
+.contact__contant-mail p {
+    padding: 20px 0;
+}
+
+.contact__contant-mail p a {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-right: 14px;
+}
+
+.contact__button {
+    margin-top: 85px;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+}
+
+.contact__button button {
+    width: 183px;
+    height: 48px;
+    color: #080808;
+    background: #FFFFFF;
+}
+
+.footerblock {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    font-family: "Montserrat";
+    font-style: normal;
+    padding: 5px 64px;
+    padding-bottom: 45px;
+}
+
+.footerblock h5 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.footerblock .footerblock2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    font-family: "Montserrat";
+    font-style: normal;
+    padding-right: 15px;
+}
+
+.footerblock .footerblock2 ul {
+    margin: 0px 0px 0px 24px;
+    padding: 0;
+}
+
+.footerblock .footerblock2 ul li {
+    font-family: "Adieu";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12.6864px;
+    line-height: 80%;
+    text-decoration: none;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.footerblock .footerblock2 .footerblock2-li {
+    font-family: "FreightBigProLight-Italic";
+    font-size: 15.2236px;
+    line-height: 80%;
+    color: #FFFFFF;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+}
+
+img {
+    margin-bottom: 50tx;
+}
+
+@media (max-width: 1024px) {
+    .container-contact {
+        margin: 1% 1%;
+    }
+
+    .contact__block1 {
+        font-family: "Montserrat";
+        font-style: normal;
+        margin-top: 138px;
+        margin-left: 30px;
+    }
+
+    .contact__block1 h1 {
+        font-size: 32px;
+    }
+
+    .contact__block1 .span1 {
+        visibility: visible;
+    }
+
+    .contact__block1 .span2 {
+        visibility: collapse;
+    }
+
+    .contact__block2 {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+
+    .contact__block2 .contact__contant {
+        margin-right: 4vw;
+    }
+
+    .contact__button {
+        margin-top: 75px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 0.06em;
+        color: #080808;
+    }
+
+    .contact__main .contact__background .container-contact .contact__block1 .span1 {
+        visibility: visible;
+    }
+
+    .contact__main .contact__background .container-contact .contact__block1 .span2 {
+        visibility: collapse;
+    }
+}
+
+.footerblock {
+    padding-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+    .container-contact {
+        padding: auto 2%;
+    }
+
+    .container-contact .contact__block2 {
+        -ms-flex-pack: start;
+        justify-content: start;
+    }
+
+    .container-contact .contact__block2 .contact__button {
+        -ms-flex-order: 1;
+        order: 1;
+        margin-top: 80px;
+        -ms-flex: 0 0 405px;
+        flex: 0 0 405px;
+    }
+
+    .container-contact .contact__block2 .contact__contant-mail {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 133px;
+        -ms-flex-order: 2;
+        order: 2;
+        margin: 70px 0 0 0;
+        float: left;
+        -ms-flex: 0 1 32%;
+        flex: 0 1 32%;
+    }
+
+    .container-contact .contact__block2 .contact__block2 {
+        -ms-flex-pack: start;
+        justify-content: start;
+    }
+
+    .container-contact .contact__block2 .contact__block2 .contact__button {
+        fix: 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-contact {
+        margin: 0;
+    }
+
+    .container-contact .contact__block2 .contact__contant-mail {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 620px) {
+    .contact__main .contact__background .container-contact {
+        padding: 0 30px;
+    }
+
+    .contact__main .contact__background .container-contact .container-flat {
+        padding-top: 30px;
+    }
+
+    .contact__main .contact__background .container-contact .contact__block2 .contact__contantBlock {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .contact__contant {
+        -ms-flex: 0 1 40%;
+        flex: 0 1 40%;
+    }
+
+    .container-contactve {
+        padding: 10.4%;
+    }
+
+    .contact__contant1 {
+        padding: 0;
+    }
+
+    .contact__block1 {
+        margin-left: 0;
+    }
+
+    .contact__block2 {
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+    }
+
+    .contact__block2 .contact__button {
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .contact__block2 .contact__contant-mail {
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+        padding-right: 100px;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .footerblock {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .footerblock .row {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    .container-contact {
+        padding: 0;
+        margin: 0;
+        padding: 5.4%;
+    }
+
+    .container-contact .contact__button {
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .container-contact .contact__contant-mail {
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .footerblock {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 10%;
+    }
+}

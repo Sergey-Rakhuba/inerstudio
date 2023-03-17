@@ -1,0 +1,15 @@
+.mod2__body {
+    width: 100vw;
+    height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.mod2__body .mod2__pages {
+    width: 706px;
+    height: 405px;
+}
